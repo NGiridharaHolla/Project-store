@@ -5,7 +5,7 @@ import wave1 from '../Images/wave1.png'
 
  export const Header = ()=>{
     return(
-       <section className="banner">
+       <section className="banner" id="Home">
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
