@@ -8,8 +8,7 @@ export const Footer = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, e.target,process.env.REACT_APP_USER_ID)
-        emailjs.sendForm('service_zzyuhhc','template_3j45iq5', e.target,'thDDxTXW9143YLNct')
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, e.target,process.env.REACT_APP_USER_ID)
         .then((result) => {
             alert('Message sent successfully')
         }).catch((error) => {

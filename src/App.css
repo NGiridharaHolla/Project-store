@@ -175,6 +175,9 @@
   width: 45px !important;
   border-radius: 50px !important;
 }
+.slick-track{
+  transform: translate3d(-647px, 0px, 0px) !important;
+}
 .slick-next {
   margin-left: 35px !important;
   background: black !important;
@@ -444,6 +447,10 @@ textarea:focus {
 @media screen and (max-width: 395px) {
   .contact-details>p {
     font-size: 16px !important;
+  }
+  .slick-list{
+    display: flex !important;
+    justify-content: center !important;
   }
 }
 h1 {
